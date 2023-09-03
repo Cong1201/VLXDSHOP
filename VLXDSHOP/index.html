@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOP-VLXD</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="grid">
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li
+                class="header__navbar-item header__navbar-item--qr header__navbar-item--separate"
+              >
+                Vào cửa hàng trên ứng dụng Vật liệu xây dựng
+                <!-- Header QR Code -->
+                <div class="header__qr">
+                  <img
+                    src="./assets/img/QR_code.png"
+                    alt=""
+                    class="header__qr-img"
+                  />
+                  <div class="header__qr-apps">
+                    <a href="" class="header__qr-link"
+                      ><img
+                        src="./assets/img/app_store.png"
+                        alt="App Store"
+                        class="header__qr-download-img"
+                    /></a>
+                    <a href="" class="header__qr-link"
+                      ><img
+                        src="./assets/img/google_play.png"
+                        alt="Google Play"
+                        class="header__qr-download-img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                <span class="header__navbar-title--no-pointer">Kết nối</span>
+                <a href="" class="header__navbar-icon-link"
+                  ><i class="header__navbar-icon fa-brands fa-facebook"></i
+                ></a>
+                <a href="" class="header__navbar-icon-link"
+                  ><i class="header__navbar-icon fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item header__navbar-item--notify">
+                <a href="" class="header__navbar-item-link">
+                  <i class="header__navbar-icon fa-solid fa-bell"></i>Thông
+                  báo</a
+                >
+                <div class="header__notify">
+                  <header class="header__notify-header">
+                    <h3>Thông báo mới nhận</h3>
+                  </header>
+                  <ul class="header__notify-list">
+                    <li class="header__notify-item header__notify-item--viewed">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./assets/img/sua-nha-uy-tin-o-ha-noi.jpg"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name"
+                            >Vật liệu xây dựng</span
+                          >
+                          <span class="header__notify-description"
+                            >Vật liệu xây dựng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./assets/img/sua-nha-uy-tin-o-ha-noi.jpg"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name"
+                            >Vật liệu xây dựng</span
+                          >
+                          <span class="header__notify-description"
+                            >Mô tả Vật liệu xây dựng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./assets/img/sua-nha-uy-tin-o-ha-noi.jpg"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name"
+                            >Vật liệu xây dựng</span
+                          >
+                          <span class="header__notify-description"
+                            >Mô tả Vật liệu xây dựng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./assets/img/sua-nha-uy-tin-o-ha-noi.jpg"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name"
+                            >Vật liệu xây dựng</span
+                          >
+                          <span class="header__notify-description"
+                            >Mô tả Vật liệu xây dựng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <footer class="header__notify-footer">
+                    <a href="" class="header__notify-footer--btn">Xem tất cả</a>
+                  </footer>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-item-link"
+                  ><i
+                    class="header__navbar-icon fa-regular fa-circle-question"
+                  ></i
+                  >Trợ giúp</a
+                >
+              </li>
+              <!-- <li class="header__navbar-item header__navbar-item--strong">
+                Đăng ký
+              </li>
+              <li class="header__navbar-item header__navbar-item--strong">
+                Đăng nhập
+              </li> -->
+              <li class="header__navbar-item header__navbar-user">
+                <img
+                  src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+                  alt=""
+                  class="header__navbar-user-img"
+                />
+                <span class="header__navbar-user-name">Thành Công</span>
+                <ul class="header__navbar-user-menu">
+                  <li class="header__navbar-user-item">
+                    <a href="" class="">Tài khoản của tôi</a>
+                  </li>
+                  <li class="header__navbar-user-item">
+                    <a href="" class="">Địa chỉ của tôi</a>
+                  </li>
+                  <li class="header__navbar-user-item">
+                    <a href="" class="">Đơn mua</a>
+                  </li>
+                  <li
+                    class="header__navbar-user-item header__navbar-user-item--separate"
+                  >
+                    <a href="./login.html" class="">Đăng xuất</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <!-- Header with search -->
+          <div class="header-with-search">
+            <div class="header__logo">
+              <a href="/" class="header__logo-link">
+                <img
+                  src="https://media.huce.edu.vn/Media/2_SINHVIEN/FolderFunc/202304/Images/logodhxd-20230421024916-e.png"
+                  alt=""
+                  class="header__logo-img"
+              /></a>
+            </div>
+
+            <div class="header__search">
+              <div class="header__search-input-wrap">
+                <input
+                  type="text"
+                  class="header__search-input"
+                  placeholder="Nhập để tìm kiếm sản phẩm"
+                />
+                <!-- Search history -->
+                <div class="header__search-history">
+                  <h3 class="header__search-history-heading">
+                    Lịch sử tìm kiếm
+                  </h3>
+                  <ul class="header__search-history-list">
+                    <li class="header__search-history-item">
+                      <a href="" class="">Gạch đỏ</a>
+                    </li>
+                    <li class="header__search-history-item">
+                      <a href="" class="">Gạch xanh</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__search-select">
+                <span class="header__search-select-label">Trong shop</span>
+                <i
+                  class="header__search-select-icon fa-solid fa-angle-down"
+                ></i>
+                <ul class="header__search-option">
+                  <li
+                    class="header__search-option-item header__search-option-item--active"
+                  >
+                    <span class="">Trong shop</span>
+                    <i class="fa-solid fa-check"></i>
+                  </li>
+
+                  <li class="header__search-option-item">
+                    <span class="">Ngoài shop</span>
+                    <i class="fa-solid fa-check"></i>
+                  </li>
+                </ul>
+              </div>
+              <button class="header__search-btn">
+                <i
+                  class="header__search-btn-icon fa-solid fa-magnifying-glass"
+                ></i>
+              </button>
+            </div>
+
+            <i
+              class="fa-solid fa-cart-shopping"
+              id="cart-icon"
+              data-quantity="0"
+            ></i>
+            <!-- Cart layout -->
+            <div class="cart">
+              <h2 class="cart-title">Your Cart</h2>
+              <!-- Content -->
+              <div class="cart-content"></div>
+              <!-- Total -->
+              <div class="total">
+                <div class="total-title">Tổng:</div>
+                <div class="total-price">0</div>
+              </div>
+              <!-- Buy Button -->
+              <button type="button" class="btn-buy">Mua hàng</button>
+              <!-- Close Cart -->
+              <i class="fa-solid fa-x" id="close-cart"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Product -->
+      <section class="shop container">
+        <h2 class="section-title">Shop Product</h2>
+        <!-- Shop Content -->
+        <div class="shop-content">
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50.5</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+
+          <!-- Box-1 -->
+          <div class="product-box">
+            <img
+              src="./assets/img/Anh-avatar-dep-chat-lam-hinh-dai-dien-600x600.jpg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR SEASONAL</h2>
+            <span class="price">$50</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+          </div>
+        </div>
+        <ul class="pagination home-product__pagination">
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">
+              <i class="pagination-item__icon fa-solid fa-angle-left"></i>
+            </a>
+          </li>
+          <li class="pagination-item pagination-item--active">
+            <a href="" class="pagination-item__link">1</a>
+          </li>
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">2</a>
+          </li>
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">3</a>
+          </li>
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">4</a>
+          </li>
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">5</a>
+          </li>
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">...</a>
+          </li>
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">14</a>
+          </li>
+          <li class="pagination-item">
+            <a href="" class="pagination-item__link">
+              <i class="pagination-item__icon fa-solid fa-angle-right"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <div class="grid">
+          <div class="grid__row">
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">VLXD-SHOP MALL</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Giới thiệu</h3>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link"
+                    >Giới thiệu về VLXD-SHOP</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Tuyển dụng</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Điều khoản VLXD-SHOP</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Danh mục</h3>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">VLXD-SHOP MALL</a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                </li>
+              </ul>
+            </div>
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Theo dõi</h3>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item__link"
+                    ><i class="footer-item__icon fa-brands fa-facebook"></i
+                    >Facebook</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link"
+                    ><i class="footer-item__icon fa-brands fa-instagram"></i
+                    >Instagram</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item__link"
+                    ><i class="footer-item__icon fa-brands fa-linkedin"></i
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="grid__column-2-4">
+              <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+              <div class="footer__download">
+                <img
+                  src="./assets/img/QR_code.png"
+                  alt=""
+                  class="footer__download-qr"
+                />
+                <div class="footer__download-apps">
+                  <a href="" class="footer__download-app-link">
+                    <img
+                      src="./assets/img/app_store.png"
+                      alt="App Store"
+                      class="footer__download-app-img"
+                  /></a>
+                  <a href="" class="footer__download-app-link">
+                    <img
+                      src="./assets/img/google_play.png"
+                      alt="Google Play"
+                      class="footer__download-app-img"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="grid">
+            <p class="footer__text">
+              2015 - Bản quyền thuộc về Công ty cổ phần tư vấn thiết kế xây dựng
+              Nam Dương
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/cart.js"></script>
+  </body>
+</html>
